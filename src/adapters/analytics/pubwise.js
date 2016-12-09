@@ -1,12 +1,12 @@
 import { ajax } from 'src/ajax';
+import adapter from 'AnalyticsAdapter';
 
 /**
  * PubWise.io Analytics
  * Contact: support@pubwise.io
- *
+ * Developer: Stephen Johnston
  */
 
-import adapter from 'AnalyticsAdapter';
 const utils = require('../../utils');
 var url = '//api.pubwise.io/api/v1/event/add/';
 var site_guid = 'unknown';
